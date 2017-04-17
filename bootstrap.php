@@ -35,3 +35,9 @@
 	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 */
 namespace KnowTheCode\CollapsibleContent;
+
+if ( ! defined( 'ABSPATH' ) ) {
+	die( "Oh, silly, there's nothing to see here?" );
+}
+
+include( __DIR__ . '/src/shortcode/shortcodes.php' );

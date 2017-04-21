@@ -35,7 +35,7 @@ function process_the_shortcode( $user_defined_attributes, $hidden_content, $shor
 	// do the processing
 	$attributes['show_icon'] = esc_attr( $attributes['show_icon'] );
 	if ( $hidden_content ) {
-		$hidden_content = do_shortcode( $hidden_content );
+			$hidden_content = do_shortcode( $hidden_content );
 	}
 
 	// Call the view file, capture it into the output buffer, and then return it.

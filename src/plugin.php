@@ -3,7 +3,7 @@
  * Plugin Handler
  *
  * @package     KnowTheCode\CollapsibleContent
- * @since       1.0.0
+ * @since       1.2.0
  * @author      hellofromTonya
  * @link        https://KnowTheCode.io
  * @license     GPL-2.0+
@@ -33,7 +33,7 @@ function enqueue_assets() {
 /**
  * Autoload plugin files.
  *
- * @since 1.0.0
+ * @since 1.2.0
  *
  * @return void
  */
